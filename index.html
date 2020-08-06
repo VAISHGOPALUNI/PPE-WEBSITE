@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Split Landing Page</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+  <!-- NAVBAR
+  =============================== -->
+  <nav class="navbar">
+    <div class="menu">
+      <ion-icon name="ios-menu"></ion-icon>
+    </div>
+    <div class="search">
+      <ion-icon name="ios-search"></ion-icon>
+    </div>
+    <div class="cart">
+      <ion-icon name="ios-cart"></ion-icon>
+    </div>
+    <div class="profile"><img src="./img/profile.jpg" alt=""></div>
+  </nav>
+
+
+  <!-- CONTENT
+  =============================== -->
+  <div class="content">
+    <div class="split left">
+      <img src="suit.jpg" alt="covid" class="PPE"/>
+     <div class="text">
+        <p class="subtitle">Coverall Suit</p>
+        <h1 class="title">Personal protective equipment</h1>
+        <button class="button">Discover More</button>
+      </div>
+    </div>
+    <div class="split right">
+      <img src="mask.png" alt="covid1" class="SUIT"/>
+      <div class="text">
+        <p class="subtitle">Face Mask</p>
+        <h1 class="title">Stay Home <br> Stay safe!</h1>
+        <p class="desc">Safety isn't expensive,<br> it's priceless!!</p>
+        <button class="button">Discover More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDER
+  =============================== -->
+  <div class="slider">
+    <div class="pages">
+      <span>01</span>06
+    </div>
+    <div class="arrows">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+      <ion-icon name="ios-arrow-forward"></ion-icon>
+    </div>
+  </div>
+
+
+  <!-- ionicons -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
